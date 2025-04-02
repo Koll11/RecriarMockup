@@ -50,9 +50,9 @@
         </div>
     </section>
 
-    <section class="flex items-center justify-center min-w-screen">
-        <div>
-            <h1 class="text-center text-1xl text-gray-400"> 
+    <section class="flex items-center justify-center min-x-screen">
+        <div class="max-w-3xl text-center">
+            <h1 class="text-1xl md:text-1xl text-gray-400 leading-relaxed"> 
                  Na Eleganso, acreditamos que os gansos são uma forma de arte -
                  uma expressão de individualidade, confiança e beleza atemporal. 
                  Nossa jornada começou com uma ideia simples: celebrar essas aves majestosas, 
@@ -62,11 +62,137 @@
         </div>
     </section>
 
-    <section class="flex items-center justify-center px-2 py-14">
+    <section class="flex items-center justify-center px-8 py-14">
         <div class="text-center">
             <h1 class="text-2xl"> We have already more than 12k Gansos </h1>
+            <div class="grid grid-cols-4 gap-4">
+                <div class="flex items-center justify-center">
+                    <img src="Assets/Imagens/badoca-720x424-Ganso-Africano.jpg" alt="Ganso1" class="w-32 h-32 object-cover rounded-lg opacity-20 transform -translate-x-4 translate-y-4">
+                </div>
+                <div class="flex items-center justify-center">
+                    <img src="Assets/Imagens/gc_6622a.jpg" alt="Ganso2" class="w-32 h-32 object-cover rounded-lg opacity-50">
+                </div>
+                <div class="flex items-center justify-center">
+                    <img src="Assets/Imagens/images (1).jpg" alt="Ganso3" class="w-32 h-32 object-cover rounded-lg opacity-50">
+                </div>
+                <div class="flex items-center justify-center">
+                    <img src="Assets/Imagens/images.jpg" alt="Ganso4" class="w-32 h-32 object-cover rounded-lg opacity-20 transform translate-y-4 transform translate-x-4">
+                </div>
+            </div>
         </div>
     </section>
 
+    <section class="flex items-center justify-center px-8 py-14">
+        <div lass="text-center">
+            <h1 class="text-2xl mb-8"> Get Ready to Save Gansos! </h1>
+            <div class="grid grid-cols-2 gap-4">
+                <div class="flex items-center justify-center">
+                    <img src="Assets/Imagens/foto-de-foco-seletivo-de-gansos-em-um-campo-scaled.jpg" alt="Part 1" class="w-40 h-40 object-cover rounded-lg object-left-top">
+                </div>
+                <div class="flex items-center justify-center">
+                    <img src="Assets/Imagens/foto-de-foco-seletivo-de-gansos-em-um-campo-scaled.jpg" alt="Part 2" class="w-40 h-40 object-cover rounded-full object-right-top">
+                </div>
+                <div class="flex items-center justify-center">
+                    <img src="Assets/Imagens/foto-de-foco-seletivo-de-gansos-em-um-campo-scaled.jpg" alt="Part 3" class="w-40 h-40 object-cover rounded-full object-left-bottom">
+                </div>
+                <div class="flex items-center justify-center">
+                    <button class="w-40 h-40 bg-blue-400 text-white font-bold rounded-lg hover:bg-blue-500">
+                        Save 50% More!
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="flex items-center justify-center px-8 py-14 bg-black">
+        <div class="max-w-3xl w-full">
+            <h1 class="text-2xl text-center text-white mb-8">FAQ - Perguntas sobre Gansos</h1>
+            <div class="space-y-4">
+                
+                <div class="bg-gray-950 rounded-lg">
+                    <button class="w-full text-left px-4 py-3 text-white font-bold flex justify-between items-center" onclick="toggleFaq(1)">
+                        O que os gansos comem?
+                        <span id="icon-1" class="transform transition-transform">+</span>
+                    </button>
+                </div>
+                
+                <div class="bg-gray-950 rounded-lg">
+                    <button class="w-full text-left px-4 py-3 text-white font-bold flex justify-between items-center" onclick="toggleFaq(2)">
+                        Gansos podem voar?
+                        <span id="icon-2" class="transform transition-transform">+</span>
+                    </button>
+                </div>
+                
+                <div class="bg-gray-950 rounded-lg">
+                    <button class="w-full text-left px-4 py-3 text-white font-bold flex justify-between items-center" onclick="toggleFaq(3)">
+                        Qual é a expectativa de vida de um ganso?
+                        <span id="icon-3" class="transform transition-transform">+</span>
+                    </button>
+                </div>
+                
+                <div class="bg-gray-950 rounded-lg">
+                    <button class="w-full text-left px-4 py-3 text-white font-bold flex justify-between items-center" onclick="toggleFaq(4)">
+                        Gansos são agressivos?
+                        <span id="icon-4" class="transform transition-transform">+</span>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <section class="flex flex-col items-center justify-center px-8 py-14 bg-black">
+        <h1 class="text-3xl text-white font-bold mb-8">Let's Quack!</h1>
+        <div class="grid grid-cols-3 gap-4">
+            <div class="flex items-center justify-center">
+                <img src="Assets/Imagens/foto-de-foco-seletivo-de-gansos-em-um-campo-scaled.jpg" alt="Parte 1" class="w-48 h-48 object-cover rounded-lg object-left">
+            </div>
+            <div class="flex items-center justify-center">
+                <img src="Assets/Imagens/foto-de-foco-seletivo-de-gansos-em-um-campo-scaled.jpg" alt="Parte 2" class="w-48 h-48 object-cover rounded-lg object-center">
+            </div>
+            <div class="mt-8 w-full max-w-md bg-black p-6 rounded-lg">
+                <form action="#" method="POST" class="space-y-4">
+                    <div>
+                        <input type="text" id="name" name="name" class="w-full mt-1 p-2 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Nome">
+                    </div>
+                    <div>
+                        <input type="email" id="email" name="email" class="w-full mt-1 p-2 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="E-mail">
+                    </div>
+                    <div>
+                        <textarea id="message" name="message" rows="4" class="w-full mt-1 p-2 bg-gray-700 text-white rounded-lg focus:outline-none focus:ring-2 focus:ring-blue-500" placeholder="Mensagem"></textarea>
+                    </div>
+                    <button type="submit" class="w-full bg-blue-500 text-white font-bold py-2 px-4 rounded-lg hover:bg-blue-600">
+                        Enviar
+                    </button>
+                </form>
+            </div>
+        </div>
+    </section>
+
+    <footer class="bg-gray-700 text-white py-8">
+        <div class="max-w-6xl mx-auto px-4">
+            <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+                <div>
+                    <h2 class="text-2xl font-bold">Eleganso</h2>
+                    <p class="text-gray-400 mt-2">Elevate Your Style Today!</p>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Pages</h3>
+                    <ul class="space-y-2">
+                        <li><a href="#" class="text-gray-400 hover:text-white">Home</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Catalog</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Contact Us</a></li>
+                    </ul>
+                </div>
+                <div>
+                    <h3 class="text-xl font-bold mb-4">Contact Us</h3>
+                    <ul class="space-y-2">
+                        <li><a href="mailto:info@eleganso.com" class="text-gray-400 hover:text-white">info@eleganso.com</a></li>
+                        <li><a href="tel:+123456789" class="text-gray-400 hover:text-white">+123 456 789</a></li>
+                        <li><a href="#" class="text-gray-400 hover:text-white">Follow us on Social Media</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </footer>
 </body>
 </html>
